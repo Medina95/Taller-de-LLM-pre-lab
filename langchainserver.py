@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from langserve import add_routes
-#os.environ["OPENAI_API_KEY"] = "key"
+#aqui va la api key 
 
 # 1. Create prompt template
 system_template = "Translate the following into {language}:"
