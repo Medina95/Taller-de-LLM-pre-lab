@@ -7,7 +7,6 @@ from langchain_openai import ChatOpenAI
 from langserve import add_routes
 
 
-# aqui va la clave 
 # 1. Create prompt template
 system_template = "Translate the following into {language}:"
 prompt_template = ChatPromptTemplate.from_messages([
