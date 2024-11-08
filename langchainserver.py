@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from langserve import add_routes
 
-os.environ["OPENAI_API_KEY"] = "clave del profe"
+os.environ["OPENAI_API_KEY"] = "Aca tu clave"
 
 # 1. Create prompt template
 system_template = "Translate the following into {language}:"
